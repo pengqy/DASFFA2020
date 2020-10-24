@@ -10,7 +10,7 @@ import ipdb
 
 class NRSG(nn.Module):
     '''
-
+    reproduce the Deepwalk
     '''
     def __init__(self, opt, uori='user'):
         super(NRSG, self).__init__()
